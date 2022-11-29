@@ -1,0 +1,15 @@
+.bg-sm {
+  background-image: url(../images/bg-sm.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.bg-xl {
+  background-image: url(../images/bg-xl.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.marTB {
+  margin-top: 100px;
+  margin-bottom: 143px;
+}
