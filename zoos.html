@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/styli.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script/script.js"></script>
+    <title>Zoos</title>
+  </head>
+  <body class="font-robot">
+    <header class="py-0.5 bg-black lg:py-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <ul
+          class="text-white font-medium leading-lineH-22.4 flex items-center gap-x-14"
+        >
+          <li class="lg:hidden">
+            <img src="./images/logo-sm.svg" alt="logo" />
+          </li>
+          <li class="hidden lg:block">
+            <img src="./images/logo.svg" alt="logo" />
+          </li>
+          <li class="hidden lg:block"><a href="./index.html">About</a></li>
+          <li class="hidden lg:block"><a href="#">Map</a></li>
+          <li class="hidden lg:block"><a href="#">Zoos</a></li>
+          <li class="hidden lg:block"><a href="#">Contact us</a></li>
+          <li class="hidden lg:block"><a href="#">Designed by ©</a></li>
+        </ul>
+        <div class="lg:hidden"><img src="./images/menu.svg" alt="menu" /></div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <img src="./images/zoos_bg.png" alt="panda" class="md:hidden" />
+        <img
+          src="./images/zoos-bg-md.png"
+          alt="panda"
+          class="hidden md:block lg:hidden"
+        />
+        <img
+          src="./images/zoos-bg-lg.png"
+          alt="panda"
+          class="hidden lg:block xl:hidden"
+        />
+        <img
+          src="./images/zoos-bg-xl.png"
+          alt="panda"
+          class="hidden xl:block"
+        />
+      </section>
+      <section class="bg-orange-300 pb-5 md:pb-10 xl:pb-20">
+        <div class="container mx-auto">
+          <div>
+            <h1 class="text-white text-size-24 pt-7 mb-5 lg:text-size-36">
+              THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!
+            </h1>
+            <p class="text-white">
+              Even though the Zoo has been able to reopen, we are at a greatly
+              reduced capacity with educational programs and public and private
+              events cancelled or postponed for additional months. We need you
+              now more than ever to help ensure that we overcome these
+              challenges. We have been actively raising funds in the community,
+              and we are grateful for the generosity. But much more support is
+              still needed, and we need your help! Please consider a gift today
+              – no matter what size – to help us sustain our mission.
+            </p>
+            <h2 class="text-color-013 text-size-24 py-7 lg:text-size-36">
+              Donation Information
+            </h2>
+          </div>
+        </div>
+        <div
+          class="bg-orange-100 mx-auto max-w-maxWidth-300 rounded-2xl flex flex-col justify-center py-5 md:max-w-maxWidth-600 lg:max-w-maxWidth-900 xl:max-w-maxWidth-1160"
+        >
+          <div class="text-center">
+            <h3 class="text-color-013 text-size-24 md:text-size-48">
+              Pick and feed a friend
+            </h3>
+            <p class="text-color-B41 mt-3">
+              We know the animals bring you joy, and in these extraordinary
+              times, we’re glad.
+            </p>
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/panda4.png" alt="panda" class="md:hidden" />
+            <img
+              src="./images/panda4-md.png"
+              alt="panda"
+              class="hidden md:block"
+            />
+          </div>
+          <div class="mt-5">
+            <h4 class="ml-4">Amount</h4>
+            <div
+              class="mx-auto bg-black w-4/5 h-4 flex justify-around items-center"
+            >
+              <div
+                class="inline-block bg-yellow-300 w-2 h-2 rounded-full anim text-center relative"
+              >
+                <span class="block mt-5 text-xs">$500</span>
+              </div>
+              <div
+                class="inline-block bg-yellow-300 w-2 h-2 rounded-full anim text-center relative"
+              >
+                <span class="block mt-5 text-xs">$250</span>
+              </div>
+              <div
+                class="inline-block bg-yellow-300 w-2 h-2 rounded-full anim text-center relative"
+              >
+                <span class="block mt-5 text-xs">$100</span>
+              </div>
+              <div
+                class="inline-block bg-yellow-300 w-2 h-2 rounded-full anim text-center relative"
+              >
+                <span class="block mt-5 text-xs">$50</span>
+              </div>
+              <div
+                class="inline-block bg-yellow-300 w-2 h-2 rounded-full anim text-center relative"
+              >
+                <span class="block mt-5 text-xs">$25</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Another arnount"
+              class="block w-48 h-12 border-2 border-solid bg-orange-100 text-xs mt-12 border-slate-400 ml-5"
+            />
+          </div>
+          <div class="flex justify-center mt-12">
+            <button
+              class="py-4 px-10 bg-orange-400 rounded-full text-white font-medium uppercase mb-8"
+            >
+              Feed a friend now
+            </button>
+          </div>
+          <div class="text-center mt-8">
+            <p>Share with your friends on social networks</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-color-115">
+      <div class="container mx-auto">
+        <div class="flex flex-col items-center md:hidden">
+          <div class="pt-5 mb-8">
+            <img src="./images/footer-logo-sm.svg" alt="logo" />
+          </div>
+          <div class="flex gap-x-7 mb-10">
+            <img src="./images/facebook.svg" alt="facebook" />
+            <img src="./images/twitter.svg" alt="twitter" />
+            <img src="./images/instagram.svg" alt="instagram" />
+            <img src="./images/youtube.svg" alt="youtube" />
+          </div>
+          <div>
+            <form action="https://echo. htmlacademy.ru/">
+              <label class="text-white">Subscribe to our news</label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="w-52 block bg-color-115 my-2 border-2 border-solid border-orange-300"
+              />
+              <button type="submit" class="block py-1 px-5 bg-white rounded-md">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="flex justify-center my-10">
+            <button
+              class="py-4 px-10 bg-orange-400 rounded-md text-white font-medium uppercase"
+            >
+              donate for volunteers
+            </button>
+          </div>
+          <div>
+            <p class="text-size-15 text-color-DBD">
+              Designed by Alisa Samborskaya
+            </p>
+            <p class="text-size-15 text-color-DBD">
+              ©RSSchool & ©Yem Digital 2021
+            </p>
+          </div>
+          <div class="text-white flex gap-x-4 py-8">
+            <span>About</span>
+            <span>Map</span>
+            <span>Zoos</span>
+            <span>Contact us</span>
+          </div>
+        </div>
+        <div class="hidden md:block lg:hidden">
+          <div class="flex justify-between pt-3">
+            <div>
+              <img src="./images/logo.svg" alt="logo" />
+              <div class="mt-8">
+                <button
+                  class="py-4 px-10 bg-orange-400 rounded-md text-white font-medium uppercase"
+                >
+                  donate for volunteers
+                </button>
+              </div>
+            </div>
+            <div class="flex flex-col gap-y-4">
+              <img src="./images/facebook.svg" alt="facebook" />
+              <img src="./images/twitter.svg" alt="twitter" />
+              <img src="./images/instagram.svg" alt="instagram" />
+              <img src="./images/youtube.svg" alt="youtube" />
+            </div>
+          </div>
+          <div class="mt-16 pb-3 flex justify-between">
+            <div class="text-white flex gap-x-10">
+              <span>About</span>
+              <span>Map</span>
+              <span>Zoos</span>
+              <span>Contact us</span>
+            </div>
+            <div>
+              <p class="text-size-15 text-color-DBD">
+                Designed by Alisa Samborskaya
+              </p>
+              <p class="text-size-15 text-color-DBD">
+                ©RSSchool & ©Yem Digital 2021
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hidden lg:block">
+          <div class="flex justify-between pt-10">
+            <div>
+              <img src="./images/logo.svg" alt="logo" />
+              <div class="mt-8">
+                <button
+                  class="py-4 px-10 bg-orange-400 rounded-md text-white font-medium uppercase"
+                >
+                  donate for volunteers
+                </button>
+              </div>
+            </div>
+            <div>
+              <form action="https://echo. htmlacademy.ru/">
+                <label class="block text-white">Subscribe to our news</label>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-52 bg-color-115 my-2 border-2 border-solid border-orange-300"
+                />
+                <button type="submit" class="py-1 px-5 bg-white rounded-md">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="mt-11 flex justify-between items-end pb-8">
+            <div class="flex flex-col gap-y-3">
+              <div class="flex gap-x-3">
+                <img src="./images/facebook.svg" alt="facebook" />
+                <span class="text-white">Facebook</span>
+              </div>
+              <div class="flex gap-x-3">
+                <img src="./images/twitter.svg" alt="twitter" />
+                <span class="text-white">Twitter</span>
+              </div>
+              <div class="flex gap-x-3">
+                <img src="./images/instagram.svg" alt="instagram" />
+                <span class="text-white">Instagram</span>
+              </div>
+              <div class="flex gap-x-3">
+                <img src="./images/youtube.svg" alt="YouTube" />
+                <span class="text-white">YouTube</span>
+              </div>
+            </div>
+            <div class="text-white flex gap-x-10">
+              <span>About</span>
+              <span>Map</span>
+              <span>Zoos</span>
+              <span>Contact us</span>
+            </div>
+            <div>
+              <p class="text-size-15 text-color-DBD">
+                Designed by Alisa Samborskaya
+              </p>
+              <p class="text-size-15 text-color-DBD">
+                ©RSSchool & ©Yem Digital 2021
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

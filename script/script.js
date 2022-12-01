@@ -145,6 +145,7 @@ tailwind.config = {
         "maxWidth-600": "600px",
         "maxWidth-640": "640px",
         "maxWidth-940": "940px",
+        "maxWidth-900": "900px",
         "maxWidth-1160": "1160px",
       },
     },
